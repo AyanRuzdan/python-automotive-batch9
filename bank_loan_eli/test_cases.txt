@@ -1,0 +1,3 @@
+age,income,existing loan
+18,25000,30000
+21,18000,150000
