@@ -16,5 +16,5 @@ total_cost = items * cost
 print("The cost of %d items at rate %.2f is %.1f" % (items, cost, total_cost))
 
 # %x and %X for hex values
-num = 14
+num = 144587
 print("The hex of %d is %x / %X" % (num, num, num))
