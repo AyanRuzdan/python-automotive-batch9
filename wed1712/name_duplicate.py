@@ -1,4 +1,5 @@
-students = [
+# list of tuples of student names
+student_names = [
     ("Amit", "Sharma"),
     ("Amit", "Verma"),
     ("Rahul", "Gupta"),
@@ -24,6 +25,11 @@ students = [
 """ create dictionary with key as
 first name and values as
 list of surnames
+----------------------------------
+name_dict = {
+    first_name1 : [lastname1, lastname2],
+    first_name2 : [lastname3, lastname4],
+    }
 """
 name_dict = {}
 
@@ -31,10 +37,10 @@ name_dict = {}
 fill the values in the dictionary
 if the name is for the first time put empty list
 """
-for first, last in students:
-    if first not in name_dict:
-        name_dict[first] = []
-    name_dict[first].append(last)
+for first_name, last_name in student_names:
+    if first_name not in name_dict:
+        name_dict[first_name] = []
+    name_dict[first_name].append(last_name)
 
 # show dict contents
 for first_name in name_dict:

@@ -1,3 +1,5 @@
+def abc():
+    print("This is abc")
 myset = {99, "apple", "banana", "pomegranate", "apple", True, 99, 2, False, 0}
 print(myset)
 empty_set = set()
@@ -16,3 +18,4 @@ print(myset | myset2)
 
 # INTERSECTION use & AMPERSAND
 print(myset & myset2)
+
