@@ -1,24 +1,24 @@
 # list of tuples of student names
 student_names = [
     ("Amit", "Sharma"),
+    ("Vikas", "Rana"),
     ("Amit", "Verma"),
     ("Rahul", "Gupta"),
     ("Rahul", "Mehta"),
+    ("Pooja", "Nair"),
     ("Rahul", "Singh"),
     ("Priya", "Patel"),
     ("Priya", "Shah"),
     ("Neha", "Agarwal"),
     ("Neha", "Jain"),
     ("Ankit", "Yadav"),
+    ("Kiran", "Reddy"),
     ("Ankit", "Mishra"),
     ("Rohit", "Kumar"),
     ("Rohit", "Malhotra"),
     ("Sneha", "Kulkarni"),
     ("Sneha", "Deshpande"),
-    ("Vikas", "Rana"),
-    ("Pooja", "Nair"),
     ("Suresh", "Iyer"),
-    ("Kiran", "Reddy"),
     ("Manish", "Pandey")
 ]
 
@@ -56,6 +56,9 @@ for first_name in name_dict:
     if len(name_dict[first_name]) > 1:
         print(f"There are %d students having first name %s" %
               (len(name_dict[first_name]), first_name))
+        for surname in name_dict[first_name]:
+            print(surname, end=" ")
+        print()
 
 
 # list comp one line

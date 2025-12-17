@@ -12,5 +12,6 @@ def divide(a,b):
 
 
 def pass_or_fail(marks):
-    return marks >= 60
+    print(sum(marks))
+    return sum(marks) >= 300
 

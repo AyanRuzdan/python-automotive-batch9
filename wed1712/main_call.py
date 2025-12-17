@@ -1,11 +1,12 @@
-import impl, funcs
+import impl
+from funcs import pass_or_fail
+a, b = map(float, input("Enter two numbers comma sep: ").split(','))
+impl.calc(a, b)
 
-impl.calc()
 
+marks = list(map(int, input("Enter marks of 5 subjects: ").split()))
 
-marks = int(input("Enter marks: "))
-
-if funcs.pass_or_fail(marks):
+if pass_or_fail(marks):
     print("PASS")
 else:
     print("FAIL")
