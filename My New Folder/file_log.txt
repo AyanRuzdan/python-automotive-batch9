@@ -1,0 +1,3 @@
+Folder created: My New Folder\folder1
+Folder created: My New Folder\f_automotive
+Folder created: My New Folder\folder_electric
