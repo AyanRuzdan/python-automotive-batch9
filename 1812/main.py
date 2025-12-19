@@ -1,3 +1,11 @@
+# Problem Statement
+'''
+Write a Python program that combines os and a user-defined package to:
+Create a project directory structure
+Use a package function to log the directory creation details into a file
+'''
+
+
 # imports
 import si 
 from repeat import repeat_add, repeat_sub

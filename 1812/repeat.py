@@ -1,16 +1,15 @@
 def repeat_add(a,b):
     product = 0
-    for i in range(b):
+    for _ in range(int(b)):
         product += a
     return product
 
-def repeat_subtract(a,b):
-    divide  = 0
-    while a>=b:
-        a -= b
+def repeat_sub(a, b):
+    divide = 0
+    if b == 0:
+        print("Divide by zero not allowed")
+        return None
+    while a >= b:
+        a -=b
         divide += 1
     return divide
-
-print(repeat_add(2,9))
-
-print(repeat_subtract(18,3))
