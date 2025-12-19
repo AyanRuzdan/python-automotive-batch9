@@ -1,7 +1,7 @@
-import impl
+import calculate
 from funcs import pass_or_fail
 a, b = map(float, input("Enter two numbers comma sep: ").split(','))
-impl.calc(a, b)
+calculate.calc(a, b)
 
 
 marks = list(map(int, input("Enter marks of 5 subjects: ").split()))

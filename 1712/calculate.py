@@ -1,13 +1,13 @@
 from funcs import add, sub, mult, divide
 
-def calc(a,b):
-    
+
+def calc(a, b):
+
     while True:
-                    
+
         print("1. Add\n2.Diff\n3.Mult\n4.Divide\n5.Exit")
         n = int(input("Enter choice: "))
-        
-        
+
         if n == 1:
             print(add(a, b))
         elif n == 2:
